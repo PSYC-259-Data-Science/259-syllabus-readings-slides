@@ -37,8 +37,7 @@ knitr::opts_chunk$set(warning=F, message=F)
 
 ```{r dates_bib, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2016-08-15")
-# fri <- as.Date("2016-01-08")
+wed <- as.Date("2021-01-06")
 
 advdate <- function(obj, adv) {
  tmon <- obj + 7*(adv-1)
@@ -46,7 +45,8 @@ advdate <- function(obj, adv) {
  tmon <- format(tmon, format="%m/%d")
  tfri <- format(tfri, format="%m/%d")
  zadv <- sprintf("%02d", adv)
- tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ #tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+  tmp <- paste("Week ",zadv,sep='',", ", tmon)
  return(tmp)
 }
 
@@ -93,40 +93,13 @@ I will detail the policy for this course below. Basically, don't cheat and try t
 
 - **30%** of your grade will be determined by a final exam.
 
-## E-mail Policy
-
-I am usually quick to respond to student e-mails. However, student e-mails tend to do several things that try my patience. I have a new policy, effective Fall 2016, that outlines why I will not respond to certain e-mails students send. Multiple rationales follow.
-
-1. The student could answer his/her own inquiry by reading the syllabus.
-2. The student missed class for which there was no exam. I do not need to know the exact reason for a missed class. Students with excusable absences are responsible for giving me a note *in hard copy* that documents the reason for the missed class. An e-mail is unnecessary unless the impromptu absence involved missing a midterm or final.
-3. The student wants to know what topics s/he missed during a class s/he skipped. The answer is always "you missed what was on the syllabus."
-4. The student is protesting a grade without reference to specific points of objection. See the policy on protesting a grade in the syllabus. These e-mails tend to be expressive utility on the part of the student and do not require a response from me. Students interested in improving their knowledge of material should see me during office hours.
-5. The students wants to know how many classes s/he missed at some point during the semester. I assume the student has a better answer to that question than me until the end of the semester.
-6. The student is requesting an extension on an assignment for which the syllabus already established the deadline. The answer is always "no".
-7. The student is ["grade grubbing"](https://www.math.uh.edu/~tomforde/GradeGrubbing.html) or asking to round up a grade. The answer is always "no".
-8. The student is asking for an extra credit opportunity, a request that amounts to more grading for the professor. The answer is "no".
-
-
-## Make-Up Exam Policy
-
-There are **NO** make-ups for missed exams. Don't bother asking.
-
-## Academic Dishonesty Policy
-
-Don’t cheat. Don’t be that guy. Yes, you. You know exactly what I’m talking about too.
-
-## Disabilities Policy
-
-Federal law mandates the provision of services at the university-level to qualified students with disabilities. Make sure to include all that relevant information here.
-
-
 \newpage
 
 # Class Schedule
 
 Students must read the following before Tuesday's class session.  Important: class readings are subject to change, contingent on mitigating circumstances and the progress we make as a class.  Students are encouraged to attend lectures and check the course website for updates. 
 
-## `r advdate(mon, 1)`: Syllabus Day
+## `r advdate(wed, 1)`: Syllabus Day
 
 *No class Thursday (Political scientists usually have a conference to start the semester).*
 
@@ -139,13 +112,13 @@ Read *all* associated documents on course website.
   - [Fun with Attendance and Grades (i.e. Students Should Attend Class)](http://svmiller.com/blog/2016/05/fun-with-attendance-grades/)
     
 
-## `r advdate(mon, 2)`: The First Topic Where We Read John Vasquez
+## `r advdate(wed, 2)`: The First Topic Where We Read John Vasquez
 
 ```{r, echo = FALSE, results="asis"} 
 bib[author = "vasquez"]
 ``` 
 
-##  `r advdate(mon, 3)`: Read the Nos. 90-97 Items in My Bib
+##  `r advdate(wed, 3)`: Read the Nos. 90-97 Items in My Bib
 
 ```{r, echo = FALSE, results="asis", eval=F} 
 bib[90:97]
@@ -153,7 +126,7 @@ bib[90:97]
 
 *Your "Slow Ride" appreciation paper is due in Thursday's class*.
 
-##  `r advdate(mon, 4)`: Read Bib Item No. 120
+##  `r advdate(wed, 4)`: Read Bib Item No. 120
 
 ```{r, echo = FALSE, results="asis", eval=F} 
 bib[120]
@@ -161,33 +134,17 @@ bib[120]
 
 
 
-##  `r advdate(mon, 5)`: The Fourth Topic with Bib Item No. 510
+##  `r advdate(wed, 5)`: The Fourth Topic with Bib Item No. 510
 
 ```{r, echo = FALSE, results="asis", eval=F} 
 bib[510]
 ``` 
 
-##  `r advdate(mon, 6)`: Keep
-##  `r advdate(mon, 7)`: Going
-##  `r advdate(mon, 8)`: Down
+##  `r advdate(wed, 6)`: Keep
+##  `r advdate(wed, 7)`: Going
+##  `r advdate(wed, 8)`: Down
 
-##  `r advdate(mon, 9)`: the
+##  `r advdate(wed, 9)`: the
 
-##  `r advdate(mon, 10)`: Line
-
-##  `r advdate(mon, 11)`: Until
-
-##  `r advdate(mon, 12)`: You
-
-## `r advdate(mon, 13)`: Are
-
-##  `r advdate(mon, 14)`: Done
-
-##  `r advdate(mon, 15)`: with
-
-
-##  `r advdate(mon, 16)`: your
-
-
-##  `r advdate(mon, 17)`: Syllabus 
+##  `r advdate(wed, 10)`: Line
 
