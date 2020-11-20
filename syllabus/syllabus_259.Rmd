@@ -95,28 +95,65 @@ TBD
 Readings should be completed prior to each class. 
 
 ## `r advdate(wed, 1)`: Course Goals
+- Goals of the class
+- Logistics (RStudio/Github)
+- Readings and assignments
 
-[@KleinHardwicke2018]
+## `r advdate(wed, 2)`: Data Workflow
+- File organization
+- Version control
+- Workflow examples [John's data "Show and Tell"]
+- *SKILLS:* Basic I/O functions, using Github
+- **READING:** Minimizing Mistakes [@RouderHaaf2019]
+<!--Data science book I/O, workspace stuff?
+Something on Github/Version Control?-->
 
-## `r advdate(wed, 2)`: 
 
-[@RouderHaaf2019]
+##  `r advdate(wed, 3)`: Automation
+- Copy/paste is evil (automating data pipeline)
+- Drop-down menus are evil (automating your analyses)
+- Machine-readable formats
+- *SKILLS:* Basic scripting, iteration, merging data 
 
-##  `r advdate(wed, 3)`: 
+##  `r advdate(wed, 4)`: Data "Show and Tell"
+- Present your current workflow
+- Identify places for potential errors
+- Identify places to increase efficiency/automation
 
-##  `r advdate(wed, 4)`:
+##  `r advdate(wed, 5)`: Data Structure
+- Data types 
+- Data organization (variables/observations)
+- *SKILLS:* Factors/strings, reshaping/aggregating data
+- **READING:** Tidy Data [@Wickham2014]
 
-[@Wickham2014]
+##  `r advdate(wed, 6)`: Error Checking
+- Data validation
+- Automating visualizations 
+- Exploratory data analysis
+- *SKILLS:* Logical statements, indexing, basic visualizations
 
-##  `r advdate(wed, 5)`:
+##  `r advdate(wed, 7)`: Encapsulation: Reusing Functions
+- Best option: Use existing APIs and packages
+- Next best option: Writing your own general-purpose functions
+- Not great option: Writing overly-specific functions that you can never use again
+- *SKILLS:* Sourcing functions, parameterization
 
-##  `r advdate(wed, 6)`: 
-##  `r advdate(wed, 7)`: 
-##  `r advdate(wed, 8)`: 
+##  `r advdate(wed, 8)`: Reproducible Reports and Documentation
+- Code as documentation
+- Documentation faciliates collaboration and data sharing
+- Reproducible reports/data capsules preserve analyses
+- *SKILLS:* Rmarkdown, papaja, package control
+- **READING:** Transparency in psychological science [@KleinHardwicke2018]
 
-##  `r advdate(wed, 9)`: 
+##  `r advdate(wed, 9)`: Visualization
+- Communicating through graphical styles
+- Interactive/animated plots for data exploration
+- *SKILLS:* ggplot and extensions
 
-##  `r advdate(wed, 10)`: 
+##  `r advdate(wed, 10)`: Project Presentations
+- How have you changed your workflow?
+- What have you learned about your data? 
+- What problems are still unresolved?
 \newpage
 
 # References
