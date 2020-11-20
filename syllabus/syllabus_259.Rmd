@@ -80,6 +80,11 @@ The goals of this course are for you to critically analyze and improve your data
 - Readings from *R for Data Science* [@WickhamGrolemund2017] are available [online](https://r4ds.had.co.nz/index.html).
 - PDFs of other course readings referenced below are available on Github.
 
+## Other helpful resources
+- [*R Markdown: The Definitive Guide*](https://bookdown.org/yihui/rmarkdown/)
+- [papaja: Reproducible APA manuscripts with R Markdown](https://crsh.github.io/papaja_man/)
+- RStudio [cheatsheets](https://rstudio.com/resources/cheatsheets/) for base R, data import, ggplot, R Markdown, and other packages.
+
 # Course Policies
 
 TBD
