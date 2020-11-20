@@ -2,18 +2,21 @@
 #Based off Steven Miller rmarkdown syllabus template
 output: 
   pdf_document:
+    #citation_package: natbib
     keep_tex: false
     fig_caption: yes
     latex_engine: pdflatex
     template: svm-latex-syllabus.tex
 geometry: margin=1in
+bibliography: master.bib
+csl: apa6.csl
 
 title: "PSYC 259: Principles of Data Science"
 author: Prof. John M. Franchak
 date: "Winter 2021"
 
 email: "franchak@ucr.edu"
-web: "https://bit.ly/2UJowby"
+web: "https://github.com/PSYC-259-Data-Science"
 officehours: "By Appointment"
 office: "https://ucr.zoom.us/my/johnfranchak"
 classroom: "https://ucr.zoom.us/j/97985633776"
@@ -33,8 +36,6 @@ knitr::opts_chunk$set(warning=F, message=F)
 # knitr::opts_knit$get(kable.force.latex = TRUE)
 ```
 
-
-
 ```{r dates_bib, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
 wed <- as.Date("2021-01-06")
@@ -50,11 +51,11 @@ advdate <- function(obj, adv) {
  return(tmp)
 }
 
-library(RefManageR)
-# library(knitcitations)
-# library(rcrossref)
-bib <- ReadBib("master.bib")
-myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+# library(RefManageR)
+# # library(knitcitations)
+# # library(rcrossref)
+# bib <- ReadBib("master.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
 ```
 
@@ -70,12 +71,12 @@ You'll learn stuff in this class, I hope. Lorem ipsum dolor sit amet, consectetu
 
 3. Perhaps some of this too.
 
-# Required Readings
+# Course Materials
 
-```{r, echo = FALSE, results="asis"} 
-bib["vasquez2009twp", "wagner2007ws"]
-``` 
-
+- The course [Github page](https://github.com/PSYC-259-Data-Science) has links to project files, readings, and the syllabus
+- We will work through examples and complete assignments through a course workspace on [RStudio Online](https://rstudio.cloud/spaces/106138/projects). To sign up, follow this [link](https://rstudio.cloud/spaces/106138/join?access_code=W90ZG4T1F5TjqEW7EloGQQcpp%2BKrTmufayP9G5Hj). You will need to create a free user account. We will go over how to access materials on the first day of class. 
+- Readings from *R for Data Science* [@WickhamGrolemund2017] are available [online](https://r4ds.had.co.nz/index.html)
+- Other course readings available on Github and are referenced below
 
 # Course Policy
 
@@ -99,52 +100,29 @@ I will detail the policy for this course below. Basically, don't cheat and try t
 
 Students must read the following before Tuesday's class session.  Important: class readings are subject to change, contingent on mitigating circumstances and the progress we make as a class.  Students are encouraged to attend lectures and check the course website for updates. 
 
-## `r advdate(wed, 1)`: Syllabus Day
+## `r advdate(wed, 1)`: Course Goals
 
-*No class Thursday (Political scientists usually have a conference to start the semester).*
+[@KleinHardwicke2018]
 
-Read *all* associated documents on course website.
-  
-  - [Taking Good Notes](http://svmiller.com/blog/2014/09/taking-good-notes/)
-  - [Dos and Dont's of Writing for Students](http://svmiller.com/blog/2015/06/dos-and-donts-of-writing-for-students/)
-  - [Assorted Tips for Students on Writing Research Papers](http://svmiller.com/blog/2015/12/assorted-tips-students-research-papers/)
-  - [Exam Grading Policy](https://www.dropbox.com/s/apihjs7di81aqcv/svm-exam-grading-policy.pdf?dl=0)
-  - [Fun with Attendance and Grades (i.e. Students Should Attend Class)](http://svmiller.com/blog/2016/05/fun-with-attendance-grades/)
-    
+## `r advdate(wed, 2)`: 
 
-## `r advdate(wed, 2)`: The First Topic Where We Read John Vasquez
+[@RouderHaaf2019]
 
-```{r, echo = FALSE, results="asis"} 
-bib[author = "vasquez"]
-``` 
+##  `r advdate(wed, 3)`: 
 
-##  `r advdate(wed, 3)`: Read the Nos. 90-97 Items in My Bib
+##  `r advdate(wed, 4)`:
 
-```{r, echo = FALSE, results="asis", eval=F} 
-bib[90:97]
-``` 
+[@Wickham2014]
 
-*Your "Slow Ride" appreciation paper is due in Thursday's class*.
+##  `r advdate(wed, 5)`:
 
-##  `r advdate(wed, 4)`: Read Bib Item No. 120
+##  `r advdate(wed, 6)`: 
+##  `r advdate(wed, 7)`: 
+##  `r advdate(wed, 8)`: 
 
-```{r, echo = FALSE, results="asis", eval=F} 
-bib[120]
-``` 
+##  `r advdate(wed, 9)`: 
 
+##  `r advdate(wed, 10)`: 
+\newpage
 
-
-##  `r advdate(wed, 5)`: The Fourth Topic with Bib Item No. 510
-
-```{r, echo = FALSE, results="asis", eval=F} 
-bib[510]
-``` 
-
-##  `r advdate(wed, 6)`: Keep
-##  `r advdate(wed, 7)`: Going
-##  `r advdate(wed, 8)`: Down
-
-##  `r advdate(wed, 9)`: the
-
-##  `r advdate(wed, 10)`: Line
-
+# References
