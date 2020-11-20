@@ -103,12 +103,13 @@ Readings should be completed prior to each class.
 - Goals of the class
 - Logistics (RStudio/Github)
 - Readings and assignments
+- *OPTIONAL:* Intro R lessons using swirl()
 
 ## `r advdate(wed, 2)`: Data Workflow
 - File organization
 - Version control
 - Workflow examples [John's data "Show and Tell"]
-- *SKILLS:* Basic I/O functions, using Github
+- *SKILLS:* Basic I/O functions, getting help, using Github
 - **READING:** Minimizing Mistakes [@RouderHaaf2019]
 <!--Data science book I/O, workspace stuff?
 Something on Github/Version Control?-->
