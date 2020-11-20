@@ -61,44 +61,38 @@ advdate <- function(obj, adv) {
 
 # Course Description
 
-You'll learn stuff in this class, I hope. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque elit sapien, eu consequat dui blandit in. Vestibulum dignissim feugiat mauris, at pretium turpis blandit nec. Aliquam porta scelerisque tortor, eget imperdiet quam dapibus et. Sed ut sollicitudin orci, id elementum arcu. Sed arcu quam, vestibulum molestie mattis sed, ultricies sed est. Phasellus eu nunc et urna volutpat pharetra. Donec interdum ante vitae odio malesuada blandit. Fusce at condimentum libero, eu elementum arcu. Aenean posuere id lorem in varius. Sed bibendum neque pretium dolor faucibus, in cursus ipsum suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Phasellus mollis egestas risus, non maximus nisl euismod sit amet. Vestibulum laoreet et urna vitae rutrum. Donec quis dui elit.
+Most quantitative courses (importantly) focus on the final steps of data analysis---conducting and understanding statistical tests. However, much of the work in data science is taking raw data, often from multiple, incompatible sources, and processing those data into a usable form. This course will emphasize the importance of robust, documented, and automated workflows for processing data to save time, reduce errors, improve reproducibility, and facilitate collaboration among multiple researchers. We will also spend time on data visualization and communication---an important part of creating, checking, and collaborating on data workflows. We will use the R programming language, Github, and Rmarkdown to work through examples, but the focus is on concepts/best practices that can be applied to any software or programming language. The course is open to students who have little programming experience or experience with R. The goal is for students at all levels of programming experience to set goals to improve their data science skills. 
 
 # Course Objectives
 
-1. You'll learn this
+The goals of this course are for you to critically analyze and improve your data analysis workflows. Implementing robust, automated procedures for handling data will allow you to:
 
-2. And also that
-
-3. Perhaps some of this too.
+- Foster open science through increased transparency, reproducibility, and easier data sharing
+- Increase the fidelity of your data and analyses by detecting and preventing errors
+- Better understand and communicate about your data
+- Save time by preventing errors, automating tasks, and reusing code
+- Facilitate collaboration with organized and documented workflows
 
 # Course Materials
 
 - The course [Github page](https://github.com/PSYC-259-Data-Science) has links to project files, readings, and the syllabus
 - We will work through examples and complete assignments through a course workspace on [RStudio Online](https://rstudio.cloud/spaces/106138/projects). To sign up, follow this [link](https://rstudio.cloud/spaces/106138/join?access_code=W90ZG4T1F5TjqEW7EloGQQcpp%2BKrTmufayP9G5Hj). You will need to create a free user account. We will go over how to access materials on the first day of class. 
-- Readings from *R for Data Science* [@WickhamGrolemund2017] are available [online](https://r4ds.had.co.nz/index.html)
-- Other course readings available on Github and are referenced below
+- Readings from *R for Data Science* [@WickhamGrolemund2017] are available [online](https://r4ds.had.co.nz/index.html).
+- PDFs of other course readings referenced below are available on Github.
 
-# Course Policy
+# Course Policies
 
-I will detail the policy for this course below. Basically, don't cheat and try to learn stuff. Don't be that guy.
+TBD
 
-## Grading Policy
+## Assignments and Grading
 
-- **20%** of your grade will be determined by a midterm during normal class hours.
-
-- **20%** of your grade will be determined by a term paper that documents your appreciation of Foghat's "Slow Ride", the most important song ever written. "Slow Ride" is what Mozart wishes *Don Giovanni* could have been.
-
-- **10%** of your grade will be determined by your attendance and participation in class. Generally, ask questions and answer them.
-
-- **20%** of your grade will be determined by a 20-page term paper on when exactly "The Love Boat" jumped the proverbial shark. You will address whether this shark-jumping can be attributed to Ted McGinley, the introduction of Jill Whelan as "Vicki", or some other cause.
-
-- **30%** of your grade will be determined by a final exam.
+## Remote Instruction
 
 \newpage
 
 # Class Schedule
 
-Students must read the following before Tuesday's class session.  Important: class readings are subject to change, contingent on mitigating circumstances and the progress we make as a class.  Students are encouraged to attend lectures and check the course website for updates. 
+Readings should be completed prior to each class. 
 
 ## `r advdate(wed, 1)`: Course Goals
 
