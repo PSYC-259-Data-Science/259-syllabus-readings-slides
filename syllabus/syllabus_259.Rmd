@@ -104,7 +104,7 @@ Readings should be completed prior to each class.
 - Logistics (RStudio/Github)
 - Readings and assignments
 
-**R4DS:** [Introduction](https://r4ds.had.co.nz/introduction.html) and [Workflow Basics](https://r4ds.had.co.nz/workflow-basics.html)
+*R4DS:* [Introduction](https://r4ds.had.co.nz/introduction.html) and [Workflow Basics](https://r4ds.had.co.nz/workflow-basics.html)
 
 *OPTIONAL:* Intro R lessons using swirl()
 
@@ -114,9 +114,9 @@ Readings should be completed prior to each class.
 - Workflow examples [John's data "Show and Tell"]
 - *SKILLS:* Basic I/O functions, getting help, using Github
 
-**R4DS:** [Data import](https://r4ds.had.co.nz/data-import.html), [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Projects](https://r4ds.had.co.nz/workflow-projects.html)
+*R4DS:* [Data import](https://r4ds.had.co.nz/data-import.html), [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Projects](https://r4ds.had.co.nz/workflow-projects.html)
 
-**OTHER READINGS:** "Minimizing Mistakes" article [@RouderHaaf2019]
+*OTHER READINGS:* "Minimizing Mistakes" article [@RouderHaaf2019]
 <!--Something on Github/Version Control?-->
 
 ##  `r advdate(wed, 3)`: Data Structure
@@ -124,17 +124,17 @@ Readings should be completed prior to each class.
 - Data organization (variables/observations)
 - *SKILLS:* Factors/strings, reshaping/aggregating data
 
-**R4DS:** [Data transformation](https://r4ds.had.co.nz/transform.html), [Tidy data](https://r4ds.had.co.nz/tidy-data.html), and [Factors](https://r4ds.had.co.nz/factors.html)
+*R4DS:* [Data transformation](https://r4ds.had.co.nz/transform.html), [Tidy data](https://r4ds.had.co.nz/tidy-data.html), and [Factors](https://r4ds.had.co.nz/factors.html)
 
-**OTHER READINGS:** Tidy Data [@Wickham2014]
+*OTHER READINGS:* Tidy Data [@Wickham2014]
 
 ##  `r advdate(wed, 4)`: Automation
 - Copy/paste is evil (automating data pipeline)
 - Drop-down menus are evil (automating your analyses)
 - Machine-readable formats
-- *SKILLS:* Writing functions, iteration
+- *SKILLS:* Writing functions, iteration, vectors
 
-**R4DS:** [Functions](https://r4ds.had.co.nz/functions.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
+*R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
 ##  `r advdate(wed, 5)`: Error Checking
 - Data validation
@@ -143,41 +143,40 @@ Readings should be completed prior to each class.
 - *SKILLS:* Basic visualizations, handling missing data
 <!-- corrr package, nest/unnest w/ purrr?-->
 
-**R4DS:** [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
+*R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
 ##  `r advdate(wed, 6)`: Reuse Part 1: Encapsulation and Writing Functions
 - Best option: Use existing APIs and packages
 - Next best option: Writing your own general-purpose functions
 - Not great option: Writing overly-specific functions that you can never use again
 - *SKILLS:* Sourcing functions, parameterization
-<!--Best practices for maintaining code, why refactor, why things break over time-->
-<!--https://perfectial.com/blog/code-refactoring/-->
+
+*OTHER READING:* Technical debt [@SuryanarayanaSamarthyam2014]
 
 ##  `r advdate(wed, 7)`: Reuse Part 2: Data Sharing, Archiving, and Documentation
 - Code as documentation
-- Documentation faciliates collaboration and data sharing
+- Reuse-minded project management
 <!-- *SKILLS:* ??? -->
 
-**OTHER READING:** Care and feeding of data [@GoodmanPepe2014]
+*OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
 
 ##  `r advdate(wed, 8)`: Communication Part 1: Reproducible Reports
 - Reproducible reports
 - Preserving programming environment and analyses
 - *SKILLS:* R Markdown, papaja, package control
 
-**R4DS:** [R Markdown](https://r4ds.had.co.nz/r-markdown.html)
+*R4DS:* [R Markdown](https://r4ds.had.co.nz/r-markdown.html)
 
-**OTHER READING:** Transparency in psychological science [@KleinHardwicke2018]
+*OTHER READING:* Transparency in psychological science [@KleinHardwicke2018]
 
 ##  `r advdate(wed, 9)`: Communication Part 2: Visualization
 - Communicating through graphical styles
 - Interactive/animated plots for data exploration
 - *SKILLS:* ggplot and extensions
 
-**R4DS:** [Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
+*R4DS:* [Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
 
-**OTHER READING:** Designing graphs for decision-makers [@ZacksFranconeri2020]
-<!--Add Tufte here?-->
+*OTHER READING:* Designing graphs for decision-makers [@ZacksFranconeri2020], [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00040Z) from [@Tufte1990; @Tufte2001; @Tufte2006], and (optional) Graph construction [@Witt2019].
 
 ##  `r advdate(wed, 10)`: Project Presentations
 - How have you changed your workflow?
