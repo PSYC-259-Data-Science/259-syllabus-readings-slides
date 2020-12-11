@@ -111,13 +111,12 @@ Readings should be completed prior to each class.
 ## `r advdate(wed, 2)`: Data Workflow
 - File organization
 - Version control
-- Workflow examples [John's data "Show and Tell"]
+- Workflow examples
 - *SKILLS:* Basic I/O functions, getting help, using Github
 
 *R4DS:* [Data import](https://r4ds.had.co.nz/data-import.html), [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Projects](https://r4ds.had.co.nz/workflow-projects.html)
 
-*OTHER READINGS:* "Minimizing Mistakes" article [@RouderHaaf2019]
-<!--Something on Github/Version Control?-->
+*OTHER READINGS:* [Github beginner guide](https://guides.github.com/activities/hello-world/) and Minimizing mistakes [@RouderHaaf2019]
 
 ##  `r advdate(wed, 3)`: Data Structure
 - Data types 
