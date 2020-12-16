@@ -87,7 +87,7 @@ The goals of this course are for you to critically analyze and improve your data
 
 # Course Policies
 
-TBD
+Please follow the course [Github page](https://github.com/PSYC-259-Data-Science) for updates to the syllabus and materials. I will communicate changes through email and/or Canvas announcements. 
 
 ## Assignments and Grading
 
@@ -106,17 +106,27 @@ Final project           & 40\% \\
 
 ### Participation 
 
-Readings done ahead of time. Participate in discussion. 
+You are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you can contribute to discussions. 
 
 ### Weekly Assignments 
 
-ALLOW GROUP WORK FOR THE WEEKLY ASSIGNMENTS (MAX OF 3) (SOME PART SHOULD BE CREATIVE/OPEN ENDED)
+I will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-3 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments. 
 
-### Workflow Critique 
+### Workflow Self-Critique 
+
+You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducble. You will briefly present your workflow critique in class during week 4 or 5. Each student will work individually on this assignment.
 
 ### Final Project 
 
+In your final project, you will improve the data workflow that you chose uing skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as RStudio Online, Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn't need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor).
+
+Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in R Markdown and contains visualizations written in R. In a brief presentation in the last week of class, you will include summarize the changes you implemented in the workflow, describe the problems you believe they have solved, and reflect on what future changes may need to be implemented. 
+
 ## Remote Instruction
+
+The course will be conducted remotely via Zoom using the course link at the top of the page. This class will be synchronous --- instruction will take place at the scheduled time, and I do not plan to record the classes. If you are having a technical difficulty (wifi/power outage/etc.) and lose access to the class (or can't get in), please notify US SOMEHOW. You are responsible for all class material, but we will do our best to get you caught up.
+
+In the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!
 
 \newpage
 
@@ -136,7 +146,7 @@ Readings should be completed prior to each class.
 ## `r advdate(wed, 2)`: Data Workflow
 - File organization
 - Version control
-- Workflow examples
+- Workflow example
 - *SKILLS:* Basic I/O functions, getting help, using Github
 
 *R4DS:* [Data import](https://r4ds.had.co.nz/data-import.html), [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Projects](https://r4ds.had.co.nz/workflow-projects.html)
@@ -157,6 +167,7 @@ Readings should be completed prior to each class.
 - Drop-down menus are evil (automating your analyses)
 - Machine-readable formats
 - *SKILLS:* Writing functions, iteration, vectors
+- **WORKFLOW PRESENTATIONS GROUP 1**
 
 *R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
@@ -165,7 +176,7 @@ Readings should be completed prior to each class.
 - Automating visualizations 
 - Exploratory data analysis
 - *SKILLS:* Basic visualizations, handling missing data
-<!-- corrr package, nest/unnest w/ purrr?-->
+- **WORKFLOW PRESENTATIONS GROUP 2**
 
 *R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
@@ -180,7 +191,7 @@ Readings should be completed prior to each class.
 ##  `r advdate(wed, 7)`: Reuse Part 2: Data Sharing, Archiving, and Documentation
 - Code as documentation
 - Reuse-minded project management
-<!-- *SKILLS:* ??? -->
+- *SKILLS:* Comments, specifications, licenses
 
 *OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
 
