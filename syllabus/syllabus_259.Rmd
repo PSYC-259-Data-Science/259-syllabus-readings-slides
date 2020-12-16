@@ -91,6 +91,31 @@ TBD
 
 ## Assignments and Grading
 
+Grading for the class is S/NC. Your grade will be based on the following:
+
+```{=latex}
+\begin{tabular}{lc}
+Component & Weight \\
+\hline
+Participation           & 20\% \\
+Weekly assignments      & 20\% \\
+Workflow critique       & 20\% \\
+Final project           & 40\% \\
+\end{tabular}
+```
+
+### Participation 
+
+Readings done ahead of time. Participate in discussion. 
+
+### Weekly Assignments 
+
+ALLOW GROUP WORK FOR THE WEEKLY ASSIGNMENTS (MAX OF 3) (SOME PART SHOULD BE CREATIVE/OPEN ENDED)
+
+### Workflow Critique 
+
+### Final Project 
+
 ## Remote Instruction
 
 \newpage
