@@ -11,16 +11,9 @@ geometry: margin=1in
 bibliography: master.bib
 csl: apa6.csl
 
-title: "PSYC 259: Principles of Data Science"
-author: Prof. John M. Franchak
+title: "Principles of Data Science"
+author: "PSYC 259"
 date: "Winter 2021"
-
-email: "franchak@ucr.edu"
-web: "https://github.com/PSYC-259-Data-Science"
-officehours: "By Appointment"
-office: "https://ucr.zoom.us/my/johnfranchak"
-classroom: "https://ucr.zoom.us/j/97985633776"
-classhours: "W  1:30-4:20 PM"
 
 fontfamily: mathpazo
 fontsize: 11pt
@@ -57,6 +50,21 @@ advdate <- function(obj, adv) {
 # bib <- ReadBib("master.bib")
 # myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
+```
+
+
+```{=latex}
+	\noindent \begin{tabular*}{\textwidth}{ @{\extracolsep{\fill}} lr @{\extracolsep{\fill}}}
+Prof. John Franchak & Office Hours: By Appointment \\ 
+E-mail: franchak@ucr.edu & \href{https://ucr.zoom.us/my/johnfranchak}{Office Hour Zoom Link} \\  
+ & \\
+TA: Jacob Elder & Office Hours: T 11am-12pm \\  
+E-mail: jacob.elder@email.ucr.edu & \href{TBD}{Office Hour Zoom Link} \\  
+ & \\
+Class Time: W  1:30-4:20 PM  & \href{https://ucr.zoom.us/j/97985633776}{Class Zoom Link} \\  
+\href{https://github.com/PSYC-259-Data-Science}{Course Materials} & \\
+	\hline
+	\end{tabular*}
 ```
 
 # Course Description
@@ -114,7 +122,7 @@ I will assign short practical assignments after most weeks of class. These exerc
 
 ### Workflow Self-Critique 
 
-You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducble. You will briefly present your workflow critique in class during week 4 or 5. Each student will work individually on this assignment.
+You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible. You will briefly present your workflow critique in class during week 4 or 5. Each student will work individually on this assignment.
 
 ### Final Project 
 
@@ -124,7 +132,7 @@ Your project should be a report, either to demonstrate exploratory analyses or t
 
 ## Remote Instruction
 
-The course will be conducted remotely via Zoom using the course link at the top of the page. This class will be synchronous --- instruction will take place at the scheduled time, and I do not plan to record the classes. If you are having a technical difficulty (wifi/power outage/etc.) and lose access to the class (or can't get in), please notify US SOMEHOW. You are responsible for all class material, but we will do our best to get you caught up.
+The course will be conducted remotely via Zoom using the course link at the top of the page. This class will be synchronous --- instruction will take place at the scheduled time. If you are having a technical difficulty (wifi/power outage/etc.) and lose access to the class (or can't get in), please let the TA and instructor know. You are responsible for all class material, but we will do our best to get you caught up.
 
 In the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!
 
