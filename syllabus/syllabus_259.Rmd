@@ -59,7 +59,7 @@ Prof. John Franchak & Office Hours: By Appointment \\
 E-mail: franchak@ucr.edu & \href{https://ucr.zoom.us/my/johnfranchak}{Office Hour Zoom Link} \\  
  & \\
 TA: Jacob Elder & Office Hours: T 11am-12pm \\  
-E-mail: jacob.elder@email.ucr.edu & \href{TBD}{Office Hour Zoom Link} \\  
+E-mail: jacob.elder@email.ucr.edu & \href{https://ucr.zoom.us/my/jelder}{Office Hour Zoom Link} \\  
  & \\
 Class Time: W  1:30-4:20 PM  & \href{https://ucr.zoom.us/j/97985633776}{Class Zoom Link} \\  
 \href{https://github.com/PSYC-259-Data-Science}{Course Materials} & \\
