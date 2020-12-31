@@ -43,13 +43,6 @@ advdate <- function(obj, adv) {
   tmp <- paste("Week ",zadv,sep='',", ", tmon)
  return(tmp)
 }
-
-# library(RefManageR)
-# # library(knitcitations)
-# # library(rcrossref)
-# bib <- ReadBib("master.bib")
-# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
-
 ```
 
 
