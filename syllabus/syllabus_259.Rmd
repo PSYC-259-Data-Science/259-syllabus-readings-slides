@@ -151,7 +151,9 @@ Readings should be completed prior to each class.
 
 *R4DS:* [Data import](https://r4ds.had.co.nz/data-import.html), [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Projects](https://r4ds.had.co.nz/workflow-projects.html)
 
-*OTHER READINGS:* [Github beginner guide](https://guides.github.com/activities/hello-world/) and Minimizing mistakes [@RouderHaaf2019]
+*OTHER READINGS:* Minimizing mistakes article [@RouderHaaf2019]
+
+*SOFTWARE SETUP:* Follow the directions [here](https://github.com/PSYC-259-Data-Science/259-syllabus/blob/master/software_setup.md) to setup R, RStudio, git, and Github. Afterwards, read and follow along with the [Github beginner guide](https://guides.github.com/activities/hello-world/).
 
 ##  `r advdate(wed, 3)`: Data Structure
 - Data types 
