@@ -84,6 +84,8 @@ The goals of this course are for you to critically analyze and improve your data
 - [*R Markdown: The Definitive Guide*](https://bookdown.org/yihui/rmarkdown/)
 - [papaja: Reproducible APA manuscripts with R Markdown](https://crsh.github.io/papaja_man/)
 - RStudio [cheatsheets](https://rstudio.com/resources/cheatsheets/) for base R, data import, ggplot, R Markdown, and other packages.
+- [STAT 545](https://stat545.com/index.html), another good, free textbook on data wrangling and exploration
+- [Happy Git with R](https://happygitwithr.com), for all of your Github-Git-R-RStudio needs
 
 # Course Policies
 
