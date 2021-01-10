@@ -116,7 +116,7 @@ I will assign short practical assignments after most weeks of class. These exerc
 
 ### Workflow Self-Critique 
 
-You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible. You will briefly present your workflow critique in class during week 4 or 5. Each student will work individually on this assignment.
+You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible. You will briefly present your workflow critique in class during week 5 or 6. Each student will work individually on this assignment.
 
 ### Final Project 
 
@@ -171,7 +171,6 @@ Readings should be completed prior to each class.
 - Drop-down menus are evil (automating your analyses)
 - Machine-readable formats
 - *SKILLS:* Writing functions, iteration, vectors
-- **WORKFLOW PRESENTATIONS GROUP 1**
 
 *R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
@@ -180,7 +179,7 @@ Readings should be completed prior to each class.
 - Automating visualizations 
 - Exploratory data analysis
 - *SKILLS:* Basic visualizations, handling missing data
-- **WORKFLOW PRESENTATIONS GROUP 2**
+- **WORKFLOW PRESENTATIONS GROUP 1**
 
 *R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
@@ -189,6 +188,7 @@ Readings should be completed prior to each class.
 - Next best option: Writing your own general-purpose functions
 - Not great option: Writing overly-specific functions that you can never use again
 - *SKILLS:* Sourcing functions, parameterization
+- **WORKFLOW PRESENTATIONS GROUP 2**
 
 *OTHER READING:* Technical debt [@SuryanarayanaSamarthyam2014]
 
