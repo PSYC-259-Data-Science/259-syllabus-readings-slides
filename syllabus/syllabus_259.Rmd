@@ -169,8 +169,7 @@ Readings should be completed prior to each class.
 ##  `r advdate(wed, 4)`: Automation
 - Copy/paste is evil (automating data pipeline)
 - Drop-down menus are evil (automating your analyses)
-- Machine-readable formats
-- *SKILLS:* Writing functions, iteration, vectors
+- *SKILLS:* Iteration (map, for loops), writing basic functions
 
 *R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
@@ -178,26 +177,25 @@ Readings should be completed prior to each class.
 - Data validation
 - Automating visualizations 
 - Exploratory data analysis
-- *SKILLS:* Basic visualizations, handling missing data
+- *SKILLS:* Basic visualizations, broom
 - **WORKFLOW PRESENTATIONS GROUP 1**
 
 *R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
-##  `r advdate(wed, 6)`: Reuse Part 1: Encapsulation and Writing Functions
+##  `r advdate(wed, 6)`: Reuse Part 1: Data Sharing, Archiving, and Documentation
+- Code as documentation
+- Reuse-minded project management
+- **WORKFLOW PRESENTATIONS GROUP 2**
+
+*OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
+
+##  `r advdate(wed, 7)`: Reuse Part 2: Encapsulation and Writing Functions
 - Best option: Use existing APIs and packages
 - Next best option: Writing your own general-purpose functions
 - Not great option: Writing overly-specific functions that you can never use again
-- *SKILLS:* Sourcing functions, parameterization
-- **WORKFLOW PRESENTATIONS GROUP 2**
+- *SKILLS:* Writing advanced functions
 
 *OTHER READING:* Technical debt [@SuryanarayanaSamarthyam2014]
-
-##  `r advdate(wed, 7)`: Reuse Part 2: Data Sharing, Archiving, and Documentation
-- Code as documentation
-- Reuse-minded project management
-- *SKILLS:* Comments, specifications, licenses
-
-*OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
 
 ##  `r advdate(wed, 8)`: Communication Part 1: Reproducible Reports
 - Reproducible reports

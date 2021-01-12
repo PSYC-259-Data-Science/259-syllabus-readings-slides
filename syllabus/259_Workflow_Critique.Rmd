@@ -1,0 +1,51 @@
+---
+#Based off Steven Miller rmarkdown syllabus template
+output: 
+  pdf_document:
+    #citation_package: natbib
+    keep_tex: false
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: svm-latex-syllabus.tex
+geometry: margin=1in
+
+title: "Workflow Self-Critique Assignment"
+author: "PSYC 259"
+date: "Winter 2021"
+
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+---
+
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='_cache/')
+knitr::opts_chunk$set(warning=F, message=F)
+```
+
+# Assignment Overview
+
+The goal of this assignment is to take an existing workflow and critically analyze it with an eye for 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are two components of the assignment: A written report (2-4 pages, double-spaced) and an in-class presentation (7-8 minutes). You should choose a current or past data analysis project that you have worked with (or one from your lab or a public repository if you are a new student or don't have data to work with). You will make changes to this workflow for your final course project, so choose something that will be useful to you! In both your report and presentations, you will have two sections: workflow and critique. The workflow section should be briefer (about 1/3 of the writing/time) so that you can focus more on the critique. 
+
+## Workflow
+
+In the workflow section, describe the end-to-end workflow of your data analysis project. Provide enough detail here so that we can understand the critique section. What are sources of raw data, and how are they stored? What steps are needed to combine and/or process the raw data? What research personnel, computing resources, software, and hardware devices are involved in your workflow? What is/are the end product(s) needed for statistical analysis?
+
+## Critique 
+
+Next, you will take a critical eye to your workflow and discuss: 
+
+**Efficiency**: Discuss what time-consuming steps in the workflow could be improved with coding (or coding with more automation). What parts of the workflow are iterative and need to be repeated when making changes or correcting errors?
+
+**Fidelity:** Discuss where errors in the workflow are most likely to occur and what procedures you might implement to improve the fidelity of data, such as eliminating copy/paste or other manual procedures or implementing formal data checks. How do you track what data are cleaned, and what participants/sessions should be included in final analyses?
+
+**Sharing/reproducibility:** Examine how an outsider might view the project. How well are the files organized and how well documented are the procedures? Would someone be able to reproduce the analyses? If not, what steps could be taken to make this possible (e.g., coding the analyses rather than using a drop-down menu).
+
+# Due Dates
+
+**Report:** The report should be turned in on Canvas before the start of class on Wednesday, February 3 at 1:30pm. 
+
+**Presentation:** You will give your presentation in class on February 3 or February 10 (using share screen on Zoom and the slide presentation software of your choice). You should **email** your slides to John before 1:30 pm on the day of your presentation. Export your slides as a PDF with file name "Lastname_critique.pdf" to send to John.
