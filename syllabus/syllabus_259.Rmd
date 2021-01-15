@@ -138,7 +138,7 @@ Readings should be completed prior to each class.
 
 ## `r advdate(wed, 1)`: Course Goals
 - Goals of the class
-- Logistics (RStudio/Github)
+- Logistics
 - Readings and assignments
 
 *R4DS:* [Introduction](https://r4ds.had.co.nz/introduction.html) and [Workflow Basics](https://r4ds.had.co.nz/workflow-basics.html)
@@ -158,18 +158,18 @@ Readings should be completed prior to each class.
 *SOFTWARE SETUP:* Follow the directions [here](https://github.com/PSYC-259-Data-Science/259-syllabus/blob/master/software_setup.md) to setup R, RStudio, git, and Github. Afterwards, read and follow along with the [Github beginner guide](https://guides.github.com/activities/hello-world/).
 
 ##  `r advdate(wed, 3)`: Data Structure
-- Data types 
+- Data types (numbers, factors, strings, dates)
 - Data organization (variables/observations)
-- *SKILLS:* Factors/strings, reshaping/aggregating data
+- *SKILLS:* Factors, logic, data wrangling
 
 *R4DS:* [Data transformation](https://r4ds.had.co.nz/transform.html), [Tidy data](https://r4ds.had.co.nz/tidy-data.html), and [Factors](https://r4ds.had.co.nz/factors.html)
 
 *OTHER READINGS:* Tidy Data [@Wickham2014]
 
 ##  `r advdate(wed, 4)`: Automation
-- Copy/paste is evil (automating data pipeline)
-- Drop-down menus are evil (automating your analyses)
-- *SKILLS:* Iteration (map, for loops), writing basic functions
+- Automating your analyses
+- Writing more efficient code
+- *SKILLS:* More data wrangling, iteration (map, for loops)
 
 *R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
