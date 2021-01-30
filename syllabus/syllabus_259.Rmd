@@ -177,13 +177,14 @@ Readings should be completed prior to each class.
 - Data validation
 - Automating visualizations 
 - Exploratory data analysis
-- *SKILLS:* Basic visualizations, broom
+- *SKILLS:* Basic visualizations, strings
 
 *R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
 ##  `r advdate(wed, 6)`: Reuse Part 1: Data Sharing, Archiving, and Documentation
 - Code as documentation
 - Reuse-minded project management
+- *SKILLS:* Writing basic functions
 - **WORKFLOW PRESENTATIONS GROUP 1**
 
 *OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
