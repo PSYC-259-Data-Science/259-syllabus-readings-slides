@@ -173,44 +173,43 @@ Readings should be completed prior to each class.
 
 *R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
 
-##  `r advdate(wed, 5)`: Error Checking
+##  `r advdate(wed, 5)`: Exploratory Data Analysis
 - Data validation
 - Automating visualizations 
-- Exploratory data analysis
-- *SKILLS:* Basic visualizations, strings
+- *SKILLS:* Basic visualizations with ggplot2
 
 *R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 
-##  `r advdate(wed, 6)`: Reuse Part 1: Data Sharing, Archiving, and Documentation
-- Code as documentation
-- Reuse-minded project management
-- *SKILLS:* Writing basic functions
+##  `r advdate(wed, 6)`: Custom Functions Part 1
 - **WORKFLOW PRESENTATIONS GROUP 1**
+- Finding new packages/APIs vs. writing your own functions
+- Defining custom functions within a script
+- *SKILLS:* Writing basic functions
 
-*OTHER READING:* Care and feeding of data [@GoodmanPepe2014]
-
-##  `r advdate(wed, 7)`: Reuse Part 2: Encapsulation and Writing Functions
-- Best option: Use existing APIs and packages
-- Next best option: Writing your own general-purpose functions
-- Not great option: Writing overly-specific functions that you can never use again
-- *SKILLS:* Writing advanced functions
+##  `r advdate(wed, 7)`: Custom Functions Part 2
 - **WORKFLOW PRESENTATIONS GROUP 2**
+- "Technical debt", "design smells", and code refactoring
+- Sourcing functions
+- Working with function arguments
+- *SKILLS:* Writing advanced functions
 
 *OTHER READING:* Technical debt [@SuryanarayanaSamarthyam2014]
 
-##  `r advdate(wed, 8)`: Communication Part 1: Reproducible Reports
+##  `r advdate(wed, 8)`: Data Sharing and Reproducibility
+- Reuse-minded project management
 - Reproducible reports
 - Preserving programming environment and analyses
-- *SKILLS:* R Markdown, papaja, package control
+- *SKILLS:* R Markdown, package control
 
 *R4DS:* [R Markdown](https://r4ds.had.co.nz/r-markdown.html)
 
-*OTHER READING:* Transparency in psychological science [@KleinHardwicke2018]
+*OTHER READINGS:* Transparency in psychological science [@KleinHardwicke2018] and Care and feeding of data [@GoodmanPepe2014]
 
-##  `r advdate(wed, 9)`: Communication Part 2: Visualization
+##  `r advdate(wed, 9)`: Communication
 - Communicating through graphical styles
-- Interactive/animated plots for data exploration
-- *SKILLS:* ggplot and extensions
+- Interactive plots for data exploration
+- Manuscript preparation in R Markdown 
+- *SKILLS:* ggplot and extensions, papaja
 
 *R4DS:* [Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
 
